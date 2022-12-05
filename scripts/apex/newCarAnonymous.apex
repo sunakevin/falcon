@@ -1,0 +1,13 @@
+NewCar acura = new NewCar();
+//acura.carType = 'Sedan';
+//acura.carName = 'Acura';
+acura.startCar('Sedan','ACURA');
+acura.Accelerate(80);
+acura.checkSpeed();
+acura.brake(55);
+acura.checkSpeed();
+acura.Accelerate(10);
+acura.checkSpeed();
+acura.brake(40);
+acura.checkSpeed();
+acura.stopCar();

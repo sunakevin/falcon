@@ -1,0 +1,23 @@
+Ogrenci11 student1 = new Ogrenci11();
+student1.firstName = 'Marry';
+student1.lastName = 'Doe';
+student1.className = '6E';
+student1.language = 'English';
+student1.art = True;
+student1.sport = False;
+student1.ingGrade = 95;
+student1.mathGrade = 92;
+student1.fenGrade = 90;
+System.debug(student1);
+
+Ogrenci11 student2 = new Ogrenci11();
+student2.firstName = 'Joe';
+student2.lastName = 'Doe';
+student2.className = '7B';
+student2.language = 'English';
+student2.art = False;
+student2.sport = False;
+student2.ingGrade = 90;
+student2.mathGrade = 92;
+student2.fenGrade = 95;
+System.debug(student2);
